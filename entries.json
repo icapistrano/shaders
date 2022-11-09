@@ -1,6 +1,7 @@
 {
   "src": [
     "blue-shader",
-    "mouse-move"
+    "mouse-move",
+    "blend-colours"
   ]
 }
