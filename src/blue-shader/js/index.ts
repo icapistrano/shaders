@@ -7,7 +7,7 @@ import {
   Color
 } from 'three';
 
-import { SceneManager } from '../../components/SceneManager';
+import SceneManager from '../../components/SceneManager';
 
 import vertexShader from '../shaders/vertex.glsl';
 import fragmentShader from '../shaders/fragment.glsl';

@@ -4,7 +4,11 @@ import {
   WebGLRenderer,
 } from 'three';
 
-export class SceneManager {
+export default class SceneManager {
+  public scene: Scene;
+  private camera: OrthographicCamera;
+  private renderer: WebGLRenderer;
+
   constructor(canvas) {
     this.scene = new Scene();
 
@@ -15,7 +19,7 @@ export class SceneManager {
     const near = 0.1;
     const far = 10;
     this.camera = new OrthographicCamera(left, right, top, btm, near, far);
-    this.camera.position.z = 1;
+    this.camera.position.setZ(1);
 
     this.renderer = new WebGLRenderer({ canvas: canvas });
     this.renderer.setSize(window.innerWidth, window.innerHeight);

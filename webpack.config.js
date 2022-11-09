@@ -8,7 +8,7 @@ const entries = {};
 const html = [];
 
 for (let folder of folderName.src) {
-  entries[folder] = path.resolve(__dirname, `src/${folder}/js/index.js`);
+  entries[folder] = path.resolve(__dirname, `src/${folder}/js/index.ts`);
 
   html.push(new HtmlWebpackPlugin({
     title: folder,
@@ -38,12 +38,12 @@ module.exports = {
     hot: true
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['.ts', '.js']
   },
   module: {
     rules: [
       {
-        test: /\.(js)$/,
+        test: /\.(ts|js)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
@@ -57,7 +57,7 @@ module.exports = {
       },
       {
         test: /\.glsl$/,
-        loader: 'webpack-glsl-loader'
+        loader: 'ts-shader-loader'
       }
     ]
   },
