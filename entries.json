@@ -1,5 +1,6 @@
 {
   "src": [
-    "blue-shader"
+    "blue-shader",
+    "mouse-move"
   ]
 }
