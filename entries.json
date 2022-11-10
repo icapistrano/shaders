@@ -3,6 +3,7 @@
     "blue-shader",
     "mouse-move",
     "blend-colours",
-    "circle-centre"
+    "circle-centre",
+    "rect-centre"
   ]
 }
