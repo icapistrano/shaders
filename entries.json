@@ -2,6 +2,7 @@
   "src": [
     "blue-shader",
     "mouse-move",
-    "blend-colours"
+    "blend-colours",
+    "circle-centre"
   ]
 }

@@ -23,6 +23,8 @@ export default class SceneManager {
 
     this.renderer = new WebGLRenderer({ canvas: canvas });
     this.renderer.setSize(window.innerWidth, window.innerHeight);
+
+    this.onWindowResize();
   }
 
   onWindowResize() {
