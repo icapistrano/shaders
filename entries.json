@@ -5,6 +5,7 @@
     "blend-colours",
     "circle-centre",
     "rect-centre",
-    "moving-rect"
+    "moving-rect",
+    "rotating-rect"
   ]
 }
