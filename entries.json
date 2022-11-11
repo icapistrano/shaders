@@ -4,6 +4,7 @@
     "mouse-move",
     "blend-colours",
     "circle-centre",
-    "rect-centre"
+    "rect-centre",
+    "moving-rect"
   ]
 }
