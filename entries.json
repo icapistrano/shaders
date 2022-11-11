@@ -6,6 +6,7 @@
     "circle-centre",
     "rect-centre",
     "moving-rect",
-    "rotating-rect"
+    "rotating-rect",
+    "rotating-rect-anchor"
   ]
 }
