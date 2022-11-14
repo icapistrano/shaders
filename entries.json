@@ -7,6 +7,7 @@
     "rect-centre",
     "moving-rect",
     "rotating-rect",
-    "rotating-rect-anchor"
+    "rotating-rect-anchor",
+    "scale-rect"
   ]
 }
