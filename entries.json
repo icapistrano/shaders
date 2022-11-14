@@ -8,6 +8,7 @@
     "moving-rect",
     "rotating-rect",
     "rotating-rect-anchor",
-    "scale-rect"
+    "scale-rect",
+    "tiling"
   ]
 }
